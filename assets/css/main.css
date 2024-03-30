@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url(head_navbar.css);
+@import url(person_section.css);
+@import url(skills.css);
+@import url(projects.css);
+@import url(contact.css);
+@import url(socials.css);
+@import url(footer.css);
+@import url(scroll-up.css);
+@import url(optimize.css);
+
+/* Переменные */
+:root {
+    --font-family: "Roboto", sans-serif;
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --title-font: 25px;
+
+    --bg-color: rgb(253, 253, 253);
+    --primary-color: rgb(36, 36, 205);
+    --secondary-color: rgb(117, 168, 255);
+    --extra-color: rgb(40, 40, 40);
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+
+    --transition: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+}

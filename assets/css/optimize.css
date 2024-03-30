@@ -1,0 +1,89 @@
+@media (max-width: 991px) {
+    .person {
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .bio {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 740px) {
+    
+}
+
+@media (max-width: 850px) {
+    nav {
+        padding: 1.5rem 1rem;
+    }
+    nav ul {
+        width: 80%;
+        position: fixed;
+        top: 86px;
+        left: 10%;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+    nav ul li {
+        margin: 8px;
+    }
+    .burger-menu {
+        display: block;
+    }
+    nav ul.show {
+        transform: translateX(0);
+    }
+
+    .person .person-img {
+        width: 22.5rem;
+        height: 22.5rem;
+    }
+    .more-about {
+        margin-top: 2rem;
+        padding: 1rem 3.5rem;
+    }
+    .more-about h2 {
+        text-align: center;
+    }
+    .more-about p {
+        text-align: justify;
+    }
+
+    .icon {
+        width: 6.875rem;
+        height: 6.25rem;
+    }
+    .skills {
+        width: auto;
+    }
+
+    .projects-cointainer {
+        flex-direction: column;
+    }
+    .project-cointainer {
+        width: 20.875rem;
+    }
+
+    .contact-form-cointainer {
+        width: 23.75rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .person .person-img {
+        width: 19.5rem;
+        height: 20rem;
+    }
+    .bio {
+        width: 25.3rem;
+    }
+    .project-cointainer {
+        width: 17.875rem;
+    }
+    .contact-form-cointainer {
+        max-width: 17.75rem;
+    }
+}

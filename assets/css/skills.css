@@ -1,0 +1,25 @@
+.skills {
+    width: 68.75rem;
+    margin: 2.5rem auto;
+    text-align: center;
+}
+
+.skills-header {
+    margin-bottom: 1rem;
+    font-size: var(--title-font);
+}
+
+.skills-wrapper img{
+    padding: 1.25rem;
+}
+
+.icon {
+    width: 15rem;
+    height: 15rem;
+}
+
+.icon-card {
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 1px var(--secondary-shadow);
+    margin: 1rem;
+}

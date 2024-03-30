@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet"href="assets/css/main.css">
+    <title>Portfolio</title>
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Алексей</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">Обо мне</a></li>
+            <li><a href="#skills" class="nav-link">Навыки</a></li>
+            <li><a href="#projects" class="nav-link">Проекты</a></li>
+            <li><a href="#contacts" class="nav-link">Контакты</a></li>
+        </ul>
+
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline">📃</ion-icon>
+        </button>
+    </nav>
+
+
+    <!-- Person Section -->
+    <section class="person" id="about">
+      <img src="assets/images/Картинка для person section (2).png" 
+           alt="картинка"
+           loading="lazy"
+           class="person-img"
+      >
+
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Обо мне</h2>
+        <p class="bio-text">Я Алексей, мне 13 полных лет, учусь в обычной школе, занимаюсь программированием на протяжение 4 лет. <br> Могу сделать сайт или телеграмм бота на заказ.</p>
+    </section>
+    <section class="more-about">
+      <h2>Дополнительная информация о себе</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quos.</p>
+      <p>Nihil accusamus libero nobis nostrum quae, perspiciatis temporibus aliquam neque.</p>
+      <p>Omnis culpa, temporibus saepe maiores facere quibusdam adipisci eligendi modi.</p>
+    </section>
+
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skills-header">Мои навыки</h2>
+      <div class="skills-wraper">
+        <div class="skills-set">
+          <img src="assets/images/html.svg" 
+           alt="иконка"
+           loading="lazy"
+           class="icon icon-card"
+          >
+          <img src="assets/images/css.svg" 
+           alt="иконка"
+           loading="lazy"
+           class="icon icon-card"
+          >
+          <img src="assets/images/javascript.svg" 
+           alt="иконка"
+           loading="lazy"
+           class="icon icon-card"
+          >
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Project section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Несколько из моих проектов</h2>
+
+      <div class="projects-cointainer">
+        <div class="project-cointainer project-card">
+          <img src="assets/images/calc.png" alt="Калькулятор" loading="lazy" class="project-pic">
+          <h4 class="project-title">Калькулятор</h4>
+          <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse minus eaque eum debitis praesentium. Hic ex provident labore velit qui, consequatur nostrum amet repellendus quia voluptas! Voluptatum totam quo eligendi?</p>
+          <a href="#" target="_blank" class="project-link">Узнать больше</a>
+        </div>
+        <div class="project-cointainer project-card">
+          <img src="assets/images/food.png" alt="Сайт про еду" loading="lazy" class="project-pic">
+          <h4 class="project-title">Сайт про еду</h4>
+          <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse minus eaque eum debitis praesentium. Hic ex provident labore velit qui, consequatur nostrum amet repellendus quia voluptas! Voluptatum totam quo eligendi?</p>
+          <a href="#" target="_blank" class="project-link">Узнать больше</a>
+        </div>
+        <div class="project-cointainer project-card">
+          <img src="assets/images/portfolio.png" alt="Сайт-портфолио" loading="lazy" class="project-pic">
+          <h4 class="project-title">Сайт-портфолио</h4>
+          <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse minus eaque eum debitis praesentium. Hic ex provident labore velit qui, consequatur nostrum amet repellendus quia voluptas! Voluptatum totam quo eligendi?</p>
+          <a href="#" target="_blank" class="project-link">Узнать больше</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact section -->
+    <section class="contact" id="contacts">
+      <h2>Связаться со мной</h2>
+      <div class="contact-form-cointainer">
+        <div class="contact-form">
+          <form action="#" method="post">
+            <div class="form-control">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="send-name" placeholder="Введите свое имя" class="input-field" required>
+            </div>
+            <div class="form-control">
+              <label for="email">Почта</label>
+              <input type="email" id="email" name="send-email" placeholder="Введите свою почту" class="input-field" required>
+            </div>
+            <div class="form-control">
+              <label for="message">Сообщение</label>
+              <textarea type="message" id="message" name="message" placeholder="Введите свое сообщение" class="input-field" required></textarea>
+            </div>
+            <div class="form-control">  
+              <input type="submit" value="Отправить" id="submit-btn" class="submit-btn">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts -->
+    <div class="socials">
+      <a href="#" target="_blank">
+        <img src="assets/icons/twit.gif"
+             alt="twitter"
+             loading="lazy"
+             class="socion"
+        />
+      </a>
+      <a href="#" target="_blank">
+        <img src="assets/icons/insta.gif"
+             alt="instagram"
+             loading="lazy"
+             class="socion"
+        />
+      </a>
+      <a href="#" target="_blank">
+        <img src="assets/icons/link.gif"
+             alt="linkedin"
+             loading="lazy"
+             class="socion"
+        />
+      </a>
+      <a href="https://github.com/AxBab" target="_blank">
+        <img src="assets/icons/github.gif"
+             alt="github"
+             loading="lazy"
+             class="socion"
+        />
+      </a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+      <img src="assets/icons/иконка стрелки.gif" class="socion up-arrow" alt="scroll-up">
+    </i>
+
+    <footer>
+      <p class="copy">© Copyright 2024</p>
+      <p class="copy">Создано <a href="https://github.com/AxBab" target="_blank">Алексеем</a></p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+    <!-- Ion icons scripts -->
+    <script>
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    </script>
+    <script>
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    </script>
+</body>
+</html>

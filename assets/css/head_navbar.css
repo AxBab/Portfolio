@@ -1,0 +1,58 @@
+nav ul.navigation {
+    list-style-type: none;
+
+    display: flex;
+    gap: 1.9rem;
+}
+
+a {
+    color: var(--secondary-color);
+    text-shadow: 1px 1px var(--primary-shadow);
+
+    font-weight: var(--bold-font);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+a:hover {
+    color: var(--extra-color);
+    transition: var(--transition);
+}
+
+nav a {
+    color: var(--secondary-color);
+    transition: all var(--transition) ease;
+}
+
+nav h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px var(--primary-shadow);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    width: 100%;
+    border: 2px black solid;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+}
+
+.burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}

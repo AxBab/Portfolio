@@ -1,0 +1,51 @@
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+    max-width: 68.75rem;
+    margin: 10vh auto;
+}
+
+.person .person-img {
+    border-radius: 50px;
+    width: 27.5rem;
+    height: 27.5rem;
+    box-shadow: 5px 5px 10px 5px var(--primary-shadow);
+}
+
+.person .bio {
+    border: 1px black solid;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 5px var(--primary-shadow);
+    width: 90%;
+}
+
+.person .bio p {
+    line-height: var(--line-height);
+    padding: 0 2rem 2rem 2rem;
+}
+
+.person .bio h2 {
+    padding: 2rem 2rem;
+    font-size: var(--title-font);
+}
+
+
+.more-about {
+    background-color: var(--bg-color);
+    padding: 2rem 6rem;
+}
+
+.more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-size: var(--title-font);
+}
+
+.more-about p {
+    line-height: var(--line-height);
+    padding: 1rem;
+    text-align: center;
+}
